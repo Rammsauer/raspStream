@@ -38,4 +38,18 @@ list = [
     youtubeLink("https://www.youtube.com/watch?v=L6vwrxDc3TA", 0, "DERustic Inn @ Jackson Hole"),
     youtubeLink("https://www.youtube.com/watch?v=fyOVKyaKJq4", 1, "Switzerland 4K - Scenic Relaxation Film With Inspiring Music", 3650),
     youtubeLink("https://www.youtube.com/watch?v=KGuCGd726RA", 0, "Live NYC Brooklyn Bridge & Manhattan cam"),
+    youtubeLink("https://www.youtube.com/watch?v=5E2ycdUi2m8", 1, "★ 4K 🇦🇹 Bludenz - Arlberg - Giselabahn", 32572),
+    youtubeLink("https://www.youtube.com/watch?v=b-PyEswUenE", 0, "THE WORLD LIVE ORIGINAL PROGRAM"),
+    youtubeLink("https://www.youtube.com/watch?v=-SMKVJO_wGo", 1, "Snowfall in The Lofoten Islands, Norway, Nature Sounds for Sleep", 12147),
+    youtubeLink("https://www.youtube.com/watch?v=wuzPzIbZk5Q", 1, "Aqualink | MEGA Lab | Hawaii live stream", 42899),
+    youtubeLink("https://www.youtube.com/watch?v=kVQC7KSbcqM", 1, "Bahamas Underwater Cam Stream", 42898),
+    youtubeLink("https://www.youtube.com/watch?v=86YLFOog4GM", 0, "Nasa Live Stream - Earth From Space : Live Views from the ISS"),
+    youtubeLink("https://www.youtube.com/watch?v=ddZu_1Z3BAc", 0, "NASA LIVE Stream From The ISS"),
+    youtubeLink("https://www.youtube.com/watch?v=f3MybR_9wpQ", 0, "LIVE View of Earth & Moon From Artemis I Orion"),
+    youtubeLink("https://www.youtube.com/watch?v=1-iS7LArMPA", 0, "EarthCam Live: Times Square in 4K"),
+    youtubeLink("https://www.youtube.com/watch?v=3rDjPLvOShM", 1, "[9:56 Hours] Train Journey to the Norwegian", 35549),
+    youtubeLink("https://www.youtube.com/watch?v=KuDR6e29eGI", 1, "[4K UHD] RED DEAD REDEMPTION 2 - FULL GAME - 4K HDR Full Gameplay", 102669),
+    youtubeLink("https://www.youtube.com/watch?v=pBvezl-975I", 1, "DE Stray (PS5) 4K 60FPS HDR Gameplay - (Full Game)", 12192),
+    youtubeLink("https://www.youtube.com/watch?v=X2z9mwLQEfk", 1 , "Uncharted: The Lost Legacy (PS5) 4K HDR Gameplay - (Full Game)", 13614),
+    youtubeLink("", 1, "", )
 ]

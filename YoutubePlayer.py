@@ -13,11 +13,11 @@ def openYoutube(element, i):
 
     if element.type == 1:
         point = element.length - random.randrange(1, element.length)
-        str = f'{element.link}&t={point}s'
+        str = f'{element.link.replace("h?", "h_popup?")}&t={point}s'
         webbrowser.open(str)
         #os.startfile(str)
     else:
-        webbrowser.open(element.link)
+        webbrowser.open(element.link.replace("h?", "h_popup?"))
         #os.startfile(element.link, 'open')
 
     time.sleep(15)

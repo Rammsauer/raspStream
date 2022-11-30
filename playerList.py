@@ -61,5 +61,14 @@ list = [
     youtubeLink("https://www.youtube.com/watch?v=cn_taKva-AQ", 1, "The Witcher 3: Wild Hunt FULL Walkthrough Gameplay - No Commentary (PC Longplay)", 118619),
     youtubeLink("https://www.youtube.com/watch?v=pf_FyT1DK3o", 1, "Sonic Mania Plus playthrough ~Longplay~", 14617),
     youtubeLink("https://www.youtube.com/watch?v=c63Y2f0MZ24", 1, "Tomb Raider II (1997) Playthrough (No Commentary)", 16916),
-    youtubeLink("https://www.youtube.com/watch?v=jIChmYpYv_8", 1, "Fallout 3 - Longplay Main Quest Full Game Walkthrough (No Commen", 43064)
+    youtubeLink("https://www.youtube.com/watch?v=jIChmYpYv_8", 1, "Fallout 3 - Longplay Main Quest Full Game Walkthrough (No Commen", 43064),
+    youtubeLink("https://www.youtube.com/watch?v=Z-t4kEfmxgA", 1, "Quality Of Life (2022) Part 2 -NYC Graffiti Documentary-", 1951),
+    youtubeLink("https://www.youtube.com/watch?v=5Gg-SACDXnc", 1, "Quality Of Life (2022) Part 3 -NYC Graffiti Documentary-", 2452),
+    youtubeLink("https://www.youtube.com/watch?v=8VyxskhCl3U", 1, "Quality Of Life (2022) Part 4 -NYC Graffiti Documentary-", 2726),
+    youtubeLink("https://www.youtube.com/watch?v=XQhv3OWPKJs", 1, "Quality Of Life (2022) Part 5 -NYC Graffiti Documentary-", 2245),
+    youtubeLink("https://www.youtube.com/watch?v=c3uJUrvI2zc", 1, "[4K] 100 KYOTO GARDENS　京都の日本庭園 100", 2750),
+    youtubeLink("https://www.youtube.com/watch?v=iUX-5wvtrlY", 1, "ZEN GARDEN AMBIANCE mit entspannenden leichten Regengeräuschen", 28646),
+    youtubeLink("https://www.youtube.com/watch?v=GWBTv99fZCQ", 1, "Rain On Japanese Zen Garden In Modern Home At Night", 28546),
+    youtubeLink("https://www.youtube.com/watch?v=s5kZ9XyXUhE", 1, "Sommeratmosphäre #Zeichnung #Sommer #Künstler - Viktor Yushkevich. #118 ", 2572),
+    youtubeLink("https://www.youtube.com/watch?v=WdXhL5dyQM8", 1, "風景画の描き方B 77778c　金子一郎 ", 5146),
 ]

@@ -56,5 +56,10 @@ list = [
     youtubeLink("https://www.youtube.com/watch?v=Ou6UsEf1J_o", 1, "The Legend of Zelda: Breath of the Wild - Full Game (No Commentary)", 65857),
     youtubeLink("https://www.youtube.com/watch?v=ZY5js5jW9LI", 1, "Fallout 4 - Longplay (Main Quest) Full Game Walkthrough [No Commentary]", 86172),
     youtubeLink("https://www.youtube.com/watch?v=1i_MIsdXXoc", 1, "Assassin's Creed Origins Full Walkthrough Gameplay - No Commentary (PC Longplay)", 81553),
-    youtubeLink("", 1, "", )
+    youtubeLink("https://www.youtube.com/watch?v=byJ5to20C6I", 1, "Tomb Raider (1996) Playthrough (No Commentary)", 15976),
+    youtubeLink("https://www.youtube.com/watch?v=BvXUR_ynn7k", 1, "Mafia 1 - Full Game Walkthrough", 31411),
+    youtubeLink("https://www.youtube.com/watch?v=cn_taKva-AQ", 1, "The Witcher 3: Wild Hunt FULL Walkthrough Gameplay - No Commentary (PC Longplay)", 118619),
+    youtubeLink("https://www.youtube.com/watch?v=pf_FyT1DK3o", 1, "Sonic Mania Plus playthrough ~Longplay~", 14617),
+    youtubeLink("https://www.youtube.com/watch?v=c63Y2f0MZ24", 1, "Tomb Raider II (1997) Playthrough (No Commentary)", 16916),
+    youtubeLink("https://www.youtube.com/watch?v=jIChmYpYv_8", 1, "Fallout 3 - Longplay Main Quest Full Game Walkthrough (No Commen", 43064)
 ]

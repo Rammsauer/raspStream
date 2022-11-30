@@ -20,28 +20,30 @@ def openYoutube(element, i):
         webbrowser.open(element.link)
         #os.startfile(element.link, 'open')
 
-    time.sleep(10)
+    time.sleep(15)
 
-    if i > 0:
-        keyboard.press(Key.ctrl_l)
-        keyboard.press(Key.alt)
-        keyboard.press(Key.esc)
+    #if i > 0:
+    #    keyboard.press(Key.ctrl_l)
+    #    keyboard.press(Key.alt)
+    #    keyboard.press(Key.esc)
 
-        keyboard.release(Key.esc)
-        keyboard.release(Key.alt)
-        keyboard.release(Key.ctrl_l)
+    #    keyboard.release(Key.esc)
+    #    keyboard.release(Key.alt)
+    #    keyboard.release(Key.ctrl_l)
 
-    keyboard.press(Key.space)
-    keyboard.release(Key.space)
+    #keyboard.press(Key.space)
+    #keyboard.release(Key.space)
 
     keyboard.press('f')
     keyboard.release('f')
 
     if element.type == 1:
-        print(random.uniform(60, element.length - point))
-        time.sleep(random.uniform(300, 600))#element.length - point))
+        if point < 660:
+            time.sleep(random.uniform(1, (element.length - point)))
+        else:
+            time.sleep(random.uniform(420, 660))
     else:
-        time.sleep(random.uniform(300, 600))
+        time.sleep(random.uniform(420, 660))
 
 
     keyboard.press(Key.esc)

@@ -1,26 +1,28 @@
 import time
 import random
 import os
-import playerList
+import webbrowser
 from pynput.keyboard import Key, Controller
 
 
-def openYoutube(i):
+def openYoutube(element, i):
     keyboard = Controller()
 
-    element = playerList.list[random.randrange(len(playerList.list))]
-
     print(element.name)
+    point = 0
 
     if element.type == 1:
-        str = f'{element.link}&t={element.length - random.randrange(30, element.length)}s'
-        os.startfile(str)
+        point = element.length - random.randrange(1, element.length)
+        str = f'{element.link}&t={point}s'
+        webbrowser.open(str)
+        #os.startfile(str)
     else:
-        os.startfile(element.link)
+        webbrowser.open(element.link)
+        #os.startfile(element.link, 'open')
 
     time.sleep(10)
 
-    if i > 1:
+    if i > 0:
         keyboard.press(Key.ctrl_l)
         keyboard.press(Key.alt)
         keyboard.press(Key.esc)
@@ -35,7 +37,12 @@ def openYoutube(i):
     keyboard.press('f')
     keyboard.release('f')
 
-    time.sleep(10)
+    if element.type == 1:
+        print(random.uniform(60, element.length - point))
+        time.sleep(random.uniform(300, 600))#element.length - point))
+    else:
+        time.sleep(random.uniform(300, 600))
+
 
     keyboard.press(Key.esc)
     keyboard.release(Key.esc)

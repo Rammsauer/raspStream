@@ -1,11 +1,13 @@
 import os
 import random
 import time
-
+import playerList
 import ImageViewer as imageViewer
 import YoutubePlayer as youtubePlayer
 
 from PIL import Image
+
+indexYoutube = 0
 
 
 def randomImage():
@@ -19,7 +21,14 @@ def randomImage():
     imageViewer.showPIL(img)
 
 
-# randomImage()
+def randomVideo(i):
+    random.shuffle(playerList.list)
+
+    element = playerList.list[i]
+
+    youtubePlayer.openYoutube(element, i)
+
 
 for i in range(1, 15):
-    youtubePlayer.openYoutube(i)
+    randomVideo(indexYoutube)
+    indexYoutube = + 1

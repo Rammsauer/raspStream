@@ -1,14 +1,15 @@
-import webbrowser
 import time
 import random
+import os
 from pynput.keyboard import Key, Controller
 
 
 class youtubeLink:
-    def __init__(self, link, type, name):
+    def __init__(self, link, type, name, length=0):
         self.link = link
         self.type = type
         self.name = name
+        self.length = length
 
 
 list = [
@@ -31,15 +32,29 @@ list = [
     youtubeLink("https://www.youtube.com/watch?v=V00D4K9OshI", 0, "LONDON BUS RIDES ✨ DIGEST 🔴 LIVE CHAT 💫"),
     youtubeLink("https://www.youtube.com/watch?v=FKLlUa23eCY", 0, "Berlin Bus Rides 🔴 Live Chat"),
     youtubeLink("https://www.youtube.com/watch?v=NKzejBusnE8", 0, "Views of Three Sisters from A Bear & Bison Inn"),
+    youtubeLink("https://www.youtube.com/watch?v=zomZywCAPTA", 1, "4K CABVIEW Bar - Bijelo Polje -102 tunnels -96 bridges -1029m", 12377),
+    youtubeLink("https://www.youtube.com/watch?v=oN8q7p57nZw", 1, "ASMR Night Truck Driving 1.5 Hours", 6119),
+    youtubeLink("https://www.youtube.com/watch?v=V03JLp2rdKc", 1, "Walking New York City on a Spring-like Day", 2354),
+    youtubeLink("https://www.youtube.com/watch?v=kasGRkfkiPM", 1, "Bob Ross - Mountain Summit (Season 13 Episode 10)", 1666),
+    youtubeLink("https://www.youtube.com/watch?v=pw5ETGiiBRg", 1, "Bob Ross - Valley View (Season 21 Episode 1)", 1652),
+    youtubeLink("https://www.youtube.com/watch?v=KYlM2zJnNWY", 1, "Bob Ross - Cabin in the Hollow (Season 31 Episode 5)", 1519),
+    youtubeLink("https://www.youtube.com/watch?v=mT0RNrTDHkI", 1, "Bob Ross - One Hour Special - The Grandeur of Summer", 3582)
 ]
 
 
 def openYoutube(i):
     keyboard = Controller()
 
-    webbrowser.open(list[random.randrange(len(list))].link)
+    element = list[random.randrange(len(list))]
 
-    time.sleep(15)
+    if element.type == 1:
+        str = f'{element.link}&t={element.length - random.randrange(30, element.length)}s'
+        print(str)
+        os.startfile(str)
+    else:
+        os.startfile(element.link)
+
+    time.sleep(10)
 
     if i > 1:
         keyboard.press(Key.ctrl_l)
@@ -56,7 +71,7 @@ def openYoutube(i):
     keyboard.press('f')
     keyboard.release('f')
 
-    time.sleep(30)
+    time.sleep(10)
 
     keyboard.press(Key.esc)
     keyboard.release(Key.esc)

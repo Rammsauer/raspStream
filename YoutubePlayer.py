@@ -15,35 +15,21 @@ def openYoutube(element, i):
         point = element.length - random.randrange(1, element.length)
         str = f'{element.link.replace("h?", "h_popup?")}&t={point}s'
         webbrowser.open(str)
-        #os.startfile(str)
     else:
         webbrowser.open(element.link.replace("h?", "h_popup?"))
-        #os.startfile(element.link, 'open')
 
-    time.sleep(15)
-
-    #if i > 0:
-    #    keyboard.press(Key.ctrl_l)
-    #    keyboard.press(Key.alt)
-    #    keyboard.press(Key.esc)
-
-    #    keyboard.release(Key.esc)
-    #    keyboard.release(Key.alt)
-    #    keyboard.release(Key.ctrl_l)
-
-    #keyboard.press(Key.space)
-    #keyboard.release(Key.space)
+    time.sleep(35)
 
     keyboard.press('f')
     keyboard.release('f')
 
     if element.type == 1:
-        if point < 660:
+        if point < 1200:
             time.sleep(random.uniform(1, (element.length - point)))
         else:
-            time.sleep(random.uniform(420, 660))
+            time.sleep(random.uniform(660, 1200))
     else:
-        time.sleep(random.uniform(420, 660))
+        time.sleep(random.uniform(660, 1200))
 
 
     keyboard.press(Key.esc)

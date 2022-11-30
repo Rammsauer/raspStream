@@ -5,22 +5,15 @@ import playerList
 from pynput.keyboard import Key, Controller
 
 
-class youtubeLink:
-    def __init__(self, link, type, name, length=0):
-        self.link = link
-        self.type = type
-        self.name = name
-        self.length = length
-
-
 def openYoutube(i):
     keyboard = Controller()
 
     element = playerList.list[random.randrange(len(playerList.list))]
 
+    print(element.name)
+
     if element.type == 1:
         str = f'{element.link}&t={element.length - random.randrange(30, element.length)}s'
-        print(str)
         os.startfile(str)
     else:
         os.startfile(element.link)

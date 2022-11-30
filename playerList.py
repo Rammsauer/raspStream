@@ -1,4 +1,9 @@
-from YoutubePlayer import youtubeLink
+class youtubeLink:
+    def __init__(self, link, type, name, length=0):
+        self.link = link
+        self.type = type
+        self.name = name
+        self.length = length
 
 # 30 minutes should be the minimum
 

@@ -51,5 +51,10 @@ list = [
     youtubeLink("https://www.youtube.com/watch?v=KuDR6e29eGI", 1, "[4K UHD] RED DEAD REDEMPTION 2 - FULL GAME - 4K HDR Full Gameplay", 102669),
     youtubeLink("https://www.youtube.com/watch?v=pBvezl-975I", 1, "DE Stray (PS5) 4K 60FPS HDR Gameplay - (Full Game)", 12192),
     youtubeLink("https://www.youtube.com/watch?v=X2z9mwLQEfk", 1 , "Uncharted: The Lost Legacy (PS5) 4K HDR Gameplay - (Full Game)", 13614),
+    youtubeLink("https://www.youtube.com/watch?v=ixllGOX0Evw", 1, "GOD OF WAR RAGNAROK Gameplay Walkthrough FULL GAME", 65414),
+    youtubeLink("https://www.youtube.com/watch?v=pSY74-B7M2c", 1, "ELDEN RING Gameplay Walkthrough FULL GAME (4K 60FPS) No Commentary", 60517),
+    youtubeLink("https://www.youtube.com/watch?v=Ou6UsEf1J_o", 1, "The Legend of Zelda: Breath of the Wild - Full Game (No Commentary)", 65857),
+    youtubeLink("https://www.youtube.com/watch?v=ZY5js5jW9LI", 1, "Fallout 4 - Longplay (Main Quest) Full Game Walkthrough [No Commentary]", 86172),
+    youtubeLink("https://www.youtube.com/watch?v=1i_MIsdXXoc", 1, "Assassin's Creed Origins Full Walkthrough Gameplay - No Commentary (PC Longplay)", 81553),
     youtubeLink("", 1, "", )
 ]

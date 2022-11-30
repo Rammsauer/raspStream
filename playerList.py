@@ -79,4 +79,13 @@ list = [
     youtubeLink("https://www.youtube.com/watch?v=-HPaYPvDylo", 1, "3 Hour Pencil Drawing: Hokusai's \"The Great Wave Off Kanagawa\"", 11276),
     youtubeLink("https://www.youtube.com/watch?v=38An7JQUADo", 1, "ASMR 3 Hours of drawing with pastels", 12314),
     youtubeLink("https://www.youtube.com/watch?v=eoN7r2dR8Uc", 1, "ASMR - Pencil on Wood Scratching (no talking) | Drawing an Old Barn in the Woods Episode 3!", 2417),
+    youtubeLink("https://www.youtube.com/watch?v=iuPSEdduXXc", 1, "The Haywain Triptych - Hieronymus Bosch", 2200),
+    youtubeLink("https://www.youtube.com/watch?v=vvw3PLFfbTo", 1, "Seoul Heavy Snow Walk Compilation Entspannendes Ambiente Schlaf", 10736),
+    youtubeLink("https://www.youtube.com/watch?v=6QWgrhfbILU", 1, "Bob Ross Telling Stories For 8 Hours", 28648),
+    youtubeLink("https://www.youtube.com/watch?v=p7G1lkYIFTM", 1, "Brooklyn Bridge to the Bronx via FDR Drive", 2673),
+    youtubeLink("https://www.youtube.com/watch?v=RNRlAIyV-8Y", 1, "#23 Fluid Art for Fun, Acrylic Pour", 658),
+    youtubeLink("https://www.youtube.com/watch?v=b2RUiHAoI-I", 1, "asmr draw with me (real time + no talking)", 3050),
+    youtubeLink("https://www.youtube.com/watch?v=DNcn7McQsx8", 1, "\"Reflections\" How to paint an Oil landscape study for tones and shapes in a time-lapse", 681),
+    youtubeLink("https://www.youtube.com/watch?v=Lt1K46od0-A", 1, "Acrylic Painting for Beginners/ Step by Step Painting/Landscape Painting", 908),
+    youtubeLink("https://www.youtube.com/watch?v=y0eWVWx8hfI", 1, "Beautiful Peaceful Landscape/ Acrylic Painting for Beginners/ Easy to Paint", 1259)
 ]

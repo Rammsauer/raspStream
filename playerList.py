@@ -71,4 +71,7 @@ list = [
     youtubeLink("https://www.youtube.com/watch?v=GWBTv99fZCQ", 1, "Rain On Japanese Zen Garden In Modern Home At Night", 28546),
     youtubeLink("https://www.youtube.com/watch?v=s5kZ9XyXUhE", 1, "Sommeratmosphäre #Zeichnung #Sommer #Künstler - Viktor Yushkevich. #118 ", 2572),
     youtubeLink("https://www.youtube.com/watch?v=WdXhL5dyQM8", 1, "風景画の描き方B 77778c　金子一郎 ", 5146),
+    youtubeLink("https://www.youtube.com/watch?v=-HPaYPvDylo", 1, "3 Hour Pencil Drawing: Hokusai's \"The Great Wave Off Kanagawa\"", 11276),
+    youtubeLink("https://www.youtube.com/watch?v=38An7JQUADo", 1, "ASMR 3 Hours of drawing with pastels", 12314),
+    youtubeLink("https://www.youtube.com/watch?v=eoN7r2dR8Uc", 1, "ASMR - Pencil on Wood Scratching (no talking) | Drawing an Old Barn in the Woods Episode 3!", 2417),
 ]

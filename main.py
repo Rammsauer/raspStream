@@ -19,7 +19,7 @@ def randomImage():
     imageViewer.showPIL(img)
 
 
-#randomImage()
+# randomImage()
 
 for i in range(1, 15):
     youtubePlayer.openYoutube(i)

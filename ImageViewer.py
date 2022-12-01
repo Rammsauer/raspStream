@@ -9,7 +9,7 @@ else:
 from PIL import Image, ImageTk
 
 
-def showPIL(pilImage):
+def showPIL(pilImage, duration = 1000):
     root = tkinter.Tk()
 
     # Escape action
@@ -35,6 +35,6 @@ def showPIL(pilImage):
     image = ImageTk.PhotoImage(pilImage)
     imagesprite = canvas.create_image(w / 2, h / 2, image=image)
 
-    root.after(1000, lambda: (root.destroy()))
+    root.after(duration, lambda: (root.destroy()))
 
     root.mainloop()

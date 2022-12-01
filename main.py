@@ -1,5 +1,7 @@
 import os
 import random
+import time
+
 import playerList
 import ImageViewer as imageViewer
 import YoutubePlayer as youtubePlayer
@@ -10,14 +12,25 @@ indexYoutube = 0
 
 
 def randomImage():
-    folder = r"C:\Users\l.rudolph\Pictures\Screenshots"
+    folder = r"D:\\40k art collection"
+    image = None
+    file = None
 
-    a = random.choice(os.listdir(folder))
-    print(a)
+    while file is None:
+        temp = random.choice(os.listdir(folder))
+        if temp == "$RECYCLE.BIN" or temp == "System Volume Information":
+            file = None
+        else:
+            file = f'{folder}\\{temp}'
 
-    file = folder + '\\' + a
-    img = Image.open(file)
-    imageViewer.showPIL(img)
+    while image is None:
+        try:
+            image = Image.open(file)
+        except PermissionError as e:
+            file = f'{file}\\{random.choice(os.listdir(file))}'
+
+    print(f'{file} | ')
+    imageViewer.showPIL(image, 5000)
 
 
 def randomVideo(i):
@@ -29,6 +42,8 @@ def randomVideo(i):
 
 
 while True:
-    randomVideo(indexYoutube)
-    indexYoutube = + 1
+    randomImage()
 
+# while True:
+#    randomVideo(indexYoutube)
+#    indexYoutube = + 1

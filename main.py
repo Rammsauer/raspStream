@@ -1,6 +1,5 @@
 import os
 import random
-import time
 import playerList
 import ImageViewer as imageViewer
 import YoutubePlayer as youtubePlayer
@@ -29,6 +28,7 @@ def randomVideo(i):
     youtubePlayer.openYoutube(element, i)
 
 
-for i in range(1, 15):
+while True:
     randomVideo(indexYoutube)
     indexYoutube = + 1
+

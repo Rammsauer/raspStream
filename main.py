@@ -18,9 +18,7 @@ def randomImage():
 
     while file is None:
         temp = random.choice(os.listdir(folder))
-        if temp == "$RECYCLE.BIN" or temp == "System Volume Information":
-            file = None
-        else:
+        if not (temp == "$RECYCLE.BIN" or temp == "System Volume Information"):
             file = f'{folder}\\{temp}'
 
     while image is None:
@@ -28,6 +26,8 @@ def randomImage():
             image = Image.open(file)
         except PermissionError as e:
             file = f'{file}\\{random.choice(os.listdir(file))}'
+        except OSError as e:
+            return
 
     print(f'{file} | ')
     imageViewer.showPIL(image, 5000)
@@ -41,8 +41,8 @@ def randomVideo(i):
     youtubePlayer.openYoutube(element, i)
 
 
-while True:
-    randomImage()
+#while True:
+#    randomImage()
 
 # while True:
 #    randomVideo(indexYoutube)

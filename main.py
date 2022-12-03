@@ -12,7 +12,7 @@ indexYoutube = 0
 
 
 def randomImage():
-    folder = r"D:\\40k art collection"
+    folder = r"/media/pi/Volume"
     image = None
     file = None
 

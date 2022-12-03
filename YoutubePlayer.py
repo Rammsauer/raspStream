@@ -6,7 +6,7 @@ from pynput.keyboard import Key, Controller as kController
 from pynput.mouse import Listener, Button, Controller as mController
 
 
-def openYoutube(element, i):
+def openYoutube(element):
     keyboard = kController()
     mouse = mController()
 

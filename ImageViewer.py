@@ -1,12 +1,11 @@
 import sys
+from PIL import Image, ImageTk
 
-if sys.version_info[0] == 2:  # the tkinter library changed its name from Python 2 to 3.
+if sys.version_info[0] == 2:
     import Tkinter
-
-    tkinter = Tkinter  # I decided to use a library reference to avoid potential naming conflicts with people's programs.
+    tkinter = Tkinter
 else:
     import tkinter
-from PIL import Image, ImageTk
 
 
 def showPIL(pilImage, duration = 1000):
@@ -33,8 +32,11 @@ def showPIL(pilImage, duration = 1000):
         pilImage = pilImage.resize((imgWidth, imgHeight), Image.ANTIALIAS)
 
     image = ImageTk.PhotoImage(pilImage)
-    imagesprite = canvas.create_image(w / 2, h / 2, image=image)
 
-    root.after(duration, lambda: (root.destroy()))
+    try:
+        canvas.create_image(w / 2, h / 2, image=image)
+        root.after(duration, lambda: (root.destroy()))
 
-    root.mainloop()
+        root.mainloop()
+    except OSError as e:
+        return

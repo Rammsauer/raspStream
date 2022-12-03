@@ -8,8 +8,6 @@ import YoutubePlayer as youtubePlayer
 
 from PIL import Image
 
-indexYoutube = 0
-
 
 def randomImage():
     folder = r"/media/pi/Volume"
@@ -26,24 +24,17 @@ def randomImage():
             image = Image.open(file)
         except PermissionError as e:
             file = f'{file}\\{random.choice(os.listdir(file))}'
-        except OSError as e:
-            return
 
-    print(f'{file} | ')
+    print(f'{file}')
     imageViewer.showPIL(image, 5000)
 
 
-def randomVideo(i):
-    random.shuffle(playerList.list)
-
-    element = playerList.list[i]
-
-    youtubePlayer.openYoutube(element, i)
-
-
-#while True:
+# while True:
 #    randomImage()
 
-# while True:
-#    randomVideo(indexYoutube)
-#    indexYoutube = + 1
+
+random.shuffle(playerList.list)
+
+while True:
+    for element in playerList.list:
+        youtubePlayer.openYoutube(element)

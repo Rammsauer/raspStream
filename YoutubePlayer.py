@@ -25,9 +25,9 @@ def openYoutube(element):
 
     while imageLogIn is None:
         try:
-            location = pyautogui.locateCenterOnScreen('img1.png')
-            print(location)
-            if location:
+            location1 = pyautogui.locateCenterOnScreen('img1.png')
+            location2 = pyautogui.locateCenterOnScreen('img3.png')
+            if location1 or location2:
                 imageLogIn = True
         except Exception as e:
             imageLogIn = None

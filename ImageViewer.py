@@ -1,4 +1,6 @@
 import sys
+from tkinter.constants import NW
+
 from PIL import Image, ImageTk
 
 if sys.version_info[0] == 2:
@@ -8,7 +10,7 @@ else:
     import tkinter
 
 
-def showPIL(pilImage, duration = 1000):
+def showPIL(pilImage, duration=1000):
     root = tkinter.Tk()
 
     # Escape action

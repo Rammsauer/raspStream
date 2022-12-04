@@ -23,11 +23,14 @@ def randomImage():
     while image is None:
         try:
             image = Image.open(file)
+            print(f'{file}')
+            imageViewer.showPIL(image, 5000)          
         except PermissionError as e:
-            file = f'{file}\\{random.choice(os.listdir(file))}'
-
-    print(f'{file}')
-    imageViewer.showPIL(image, 5000)
+            file = f'{file}/{random.choice(os.listdir(file))}'
+        except IsADirectoryError as e:
+            file = f'{file}/{random.choice(os.listdir(file))}'
+        except OSError as e:
+            return
 
 
 def randomGif():

@@ -101,7 +101,7 @@ list = [
     youtubeLink("https://www.youtube.com/watch?v=ACcFYF7N1dw", 1, "The best summer landscape. Composer: Viktor Yushkevich.", 1906),
     youtubeLink("https://www.youtube.com/watch?v=E7nnRc-F0dc", 1, "(Christoph Columbus, die Entdeckung des Landes). Künstler-Viktor", 7082),
     youtubeLink("https://www.youtube.com/watch?v=QngPGg4plVM", 1, "(Dorfleben) Acrylbild. Künstler - Viktor Juschkewitsch. #93 Fotos 2021.", 3186),
-    youtubeLink("https://www.youtube.com/watch?v=7kLzyZ9gBa0", 1 ,"Tropisches Ambiente - Exotische Vögel zwitschern im Tropenwald", 28542),
+    youtubeLink("https://www.youtube.com/watch?v=7kLzyZ9gBa0", 1, "Tropisches Ambiente - Exotische Vögel zwitschern im Tropenwald", 28542),
     youtubeLink("https://www.youtube.com/watch?v=G52dUQLxPzg", 1, "11 STUNDEN Atemberaubende 4K-Unterwasseraufnahmen", 39992),
     youtubeLink("https://www.youtube.com/watch?v=F1gK85IEeDI", 1, "Morgendliche Vogelgesänge und Flussgeräusche", 35714),
     youtubeLink("https://www.youtube.com/watch?v=pWH4cywYx4k", 1, "river sound bird sound video ", 3582),
@@ -111,6 +111,5 @@ list = [
     youtubeLink("https://www.youtube.com/watch?v=dMd5PYfTGhU", 1, "A Microscopic Tour of Death | Compilation ", 2063),
     youtubeLink("https://www.youtube.com/watch?v=perToEokKR0", 1, "Full Flight – American Airlines – Boeing 777-223/ER – CLT-HNL – First Class – AA569 – IFS Ep. 410", 31205),
     youtubeLink("https://www.youtube.com/watch?v=mrcQL5Od-Fg", 1, "Full Flight – Hawaiian Airlines – Airbus A330-243 – HNL-LAX – N396HA – IFS Ep. 290", 7633),
-    youtubeLink("https://www.youtube.com/watch?v=z_2Y6KU6LL8". 1, "Full Flight – American Airlines – Airbus A321-253NX – DFW-PHX – N409AA – IFS Ep. 289", 8209),
-    youtubeLink("")
+    youtubeLink("https://www.youtube.com/watch?v=z_2Y6KU6LL8", 1, "Full Flight – American Airlines – Airbus A321-253NX – DFW-PHX – N409AA – IFS Ep. 289", 8209),
 ]

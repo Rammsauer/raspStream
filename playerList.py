@@ -109,4 +109,8 @@ list = [
     youtubeLink("https://www.youtube.com/watch?v=d418Gk_osoY", 1, "The Staircase To Hell", 1019),
     youtubeLink("https://www.youtube.com/watch?v=QKvseh1kJ5k", 1, "Soca Kajak Tour 2012 Slowenien Abschnitt 2 Klamm bis 3 Klamm ", 1343),
     youtubeLink("https://www.youtube.com/watch?v=dMd5PYfTGhU", 1, "A Microscopic Tour of Death | Compilation ", 2063),
+    youtubeLink("https://www.youtube.com/watch?v=perToEokKR0", 1, "Full Flight – American Airlines – Boeing 777-223/ER – CLT-HNL – First Class – AA569 – IFS Ep. 410", 31205),
+    youtubeLink("https://www.youtube.com/watch?v=mrcQL5Od-Fg", 1, "Full Flight – Hawaiian Airlines – Airbus A330-243 – HNL-LAX – N396HA – IFS Ep. 290", 7633),
+    youtubeLink("https://www.youtube.com/watch?v=z_2Y6KU6LL8". 1, "Full Flight – American Airlines – Airbus A321-253NX – DFW-PHX – N409AA – IFS Ep. 289", 8209),
+    youtubeLink("")
 ]

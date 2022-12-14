@@ -81,7 +81,7 @@ list = [
     youtubeLink("https://www.youtube.com/watch?v=eoN7r2dR8Uc", 1, "ASMR - Pencil on Wood Scratching (no talking) | Drawing an Old Barn in the Woods Episode 3!", 2417),
     youtubeLink("https://www.youtube.com/watch?v=iuPSEdduXXc", 1, "The Haywain Triptych - Hieronymus Bosch", 2200),
     youtubeLink("https://www.youtube.com/watch?v=vvw3PLFfbTo", 1, "Seoul Heavy Snow Walk Compilation Entspannendes Ambiente Schlaf", 10736),
-    youtubeLink("https://www.youtube.com/watch?v=6QWgrhfbILU", 1, "Bob Ross Telling Stories For 8 Hours", 28648),
+    # youtubeLink("https://www.youtube.com/watch?v=6QWgrhfbILU", 1, "Bob Ross Telling Stories For 8 Hours", 28648),
     youtubeLink("https://www.youtube.com/watch?v=p7G1lkYIFTM", 1, "Brooklyn Bridge to the Bronx via FDR Drive", 2673),
     youtubeLink("https://www.youtube.com/watch?v=RNRlAIyV-8Y", 1, "#23 Fluid Art for Fun, Acrylic Pour", 658),
     youtubeLink("https://www.youtube.com/watch?v=b2RUiHAoI-I", 1, "asmr draw with me (real time + no talking)", 3050),
@@ -112,4 +112,10 @@ list = [
     youtubeLink("https://www.youtube.com/watch?v=perToEokKR0", 1, "Full Flight – American Airlines – Boeing 777-223/ER – CLT-HNL – First Class – AA569 – IFS Ep. 410", 31205),
     youtubeLink("https://www.youtube.com/watch?v=mrcQL5Od-Fg", 1, "Full Flight – Hawaiian Airlines – Airbus A330-243 – HNL-LAX – N396HA – IFS Ep. 290", 7633),
     youtubeLink("https://www.youtube.com/watch?v=z_2Y6KU6LL8", 1, "Full Flight – American Airlines – Airbus A321-253NX – DFW-PHX – N409AA – IFS Ep. 289", 8209),
+    youtubeLink("https://www.youtube.com/watch?v=Ik4T_FMKDio", 1, " 4K Winter in Norwegen - Die berühmtesten Orte aus der Vogelperspektive ", 31995),
+    youtubeLink("https://www.youtube.com/watch?v=_ztoVyiUbPs", 1, " 16 Bestes Vivarium-Highlight 2020-2022 ", 2928),
+    youtubeLink("https://www.youtube.com/watch?v=mCWLXKFezcw", 1, " 자연의 이끼숲을 가져온 비밀의 이끼 정원 만들기 The Secret Moss Garden That Brought Nature's Moss Forest ", 1360),
+    youtubeLink("https://www.youtube.com/watch?v=DCmfJEu_2LQ", 1 , "쓰러진 통나무 팔루다리움 'Fallen Log In The Woods' Nepenthes Paludarium", 1442),
+    youtubeLink("https://www.youtube.com/watch?v=vT-YG0eytI8", 1, " Zugfahrerrekord SE5 Hanoi - Ninh Binh (2017) ", 8728),
+    youtubeLink("", 1, "", )
 ]

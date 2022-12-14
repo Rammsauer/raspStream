@@ -11,8 +11,8 @@ def openYoutube(element):
     mouse = mController()
 
     imageLogIn = None
-    imageNotAv = None
-    point = (element.length - random.randrange(1, element.length)) if element.type == 1 else 1
+    timeStamp = time.time()
+    point = (element.length - random.randrange(1, (element.length - 600))) if element.type == 1 else 1
     sleep = random.uniform(60, (element.length - point)) if element.type == 1 and (element.length - point) < 1200 else random.uniform(660, 1200)
 
     print(f'{element.link.replace("https://www.youtube.com/watch?v=", "")} | {int(sleep)}s | {element.name} ')
@@ -27,6 +27,15 @@ def openYoutube(element):
         try:
             location1 = pyautogui.locateCenterOnScreen('img1.png')
             location2 = pyautogui.locateCenterOnScreen('img3.png')
+            if time.time() - timeStamp > 90:
+                keyboard.press(Key.ctrl_l)
+                time.sleep(5)
+                keyboard.press('w')
+
+                keyboard.release('w')
+                keyboard.release(Key.ctrl_l)
+
+                return
             if location1 or location2:
                 imageLogIn = True
         except Exception as e:
@@ -39,13 +48,7 @@ def openYoutube(element):
     keyboard.press(Key.enter)
     keyboard.release(Key.enter)
 
-    time.sleep(15)
-
-    location = pyautogui.locateOnScreen('img2.png')
-    if location: imageNotAv = True
-
-    if not imageNotAv: time.sleep(sleep - 15)
-    else: print("Stream aktuell nicht verfügbar")
+    time.sleep(sleep)
 
     keyboard.press(Key.ctrl_l)
 

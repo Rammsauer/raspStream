@@ -1,12 +1,15 @@
 import os
 import random
+import time
+import webbrowser
+
 import playerList
 import requests
 import ImageViewer as imageViewer
 import YoutubePlayer as youtubePlayer
 import urllib
-from io import BytesIO
 
+from io import BytesIO
 from PIL import Image
 
 
@@ -24,7 +27,7 @@ def randomImage():
         try:
             image = Image.open(file)
             print(f'{file}')
-            imageViewer.showPIL(image, 5000)          
+            imageViewer.showPIL(image, 5000)
         except PermissionError as e:
             file = f'{file}/{random.choice(os.listdir(file))}'
         except IsADirectoryError as e:
@@ -40,19 +43,17 @@ def randomGif():
     gifUrl = f'https://i.giphy.com/media/{id}/giphy.gif'
     print(gifUrl)
     image = Image.open(BytesIO(urllib.request.urlopen(gifUrl).read()))
-    imageViewer.showGIF(image, 5000)
+    webbrowser.open_new(gifUrl)
 
-
-randomGif()
-
-
-while True:
-    randomImage()
 
 '''
+while True:
+    randomGif()
+'''
+
+
 random.shuffle(playerList.list)
 
 while True:
-   for element in playerList.list:
-       youtubePlayer.openYoutube(element)
-'''
+    for element in playerList.list:
+        youtubePlayer.openYoutube(element)

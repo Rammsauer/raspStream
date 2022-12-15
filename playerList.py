@@ -117,5 +117,8 @@ list = [
     youtubeLink("https://www.youtube.com/watch?v=mCWLXKFezcw", 1, " 자연의 이끼숲을 가져온 비밀의 이끼 정원 만들기 The Secret Moss Garden That Brought Nature's Moss Forest ", 1360),
     youtubeLink("https://www.youtube.com/watch?v=DCmfJEu_2LQ", 1 , "쓰러진 통나무 팔루다리움 'Fallen Log In The Woods' Nepenthes Paludarium", 1442),
     youtubeLink("https://www.youtube.com/watch?v=vT-YG0eytI8", 1, " Zugfahrerrekord SE5 Hanoi - Ninh Binh (2017) ", 8728),
-    youtubeLink("https://www.youtube.com/watch?v=rs9w5bgtJC8", 1, " Titanic Sinks REAL TIME ", 9636),
+    youtubeLink("https://www.youtube.com/watch?v=rs9w5bgtJC8", 1, "Titanic Sinks REAL TIME", 9636),
+    youtubeLink("https://www.youtube.com/watch?v=1LrcTa0dDmw", 1, "Into the Abyss: Chemosynthetic Oases (Full Movie)", 3589),
+    youtubeLink("https://www.youtube.com/watch?v=FmR14Yng9kI", 1, "Deep Sea Gigantism | Why the Ocean Breeds Giants", 1947),
+    youtubeLink("https://www.youtube.com/watch?v=43-_D_5StVA", 1, " L.A NOIRE FULL GAME Walkthrough Gameplay - (4K 60FPS) - No Commentary ", 66323)
 ]

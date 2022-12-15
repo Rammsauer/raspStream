@@ -37,7 +37,7 @@ def randomImage():
 
 
 def randomGif():
-    url = "http://api.giphy.com/v1/gifs/random?api_key=1Q55dtdlmXmoMseH70jeOHIv29sGrPwa"
+    url = "https://api.giphy.com/v1/gifs/random?api_key=1Q55dtdlmXmoMseH70jeOHIv29sGrPwa"
     response = requests.get(url)
     id = response.json()['data']['id']
     gifUrl = f'https://i.giphy.com/media/{id}/giphy.gif'

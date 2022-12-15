@@ -120,5 +120,8 @@ list = [
     youtubeLink("https://www.youtube.com/watch?v=rs9w5bgtJC8", 1, "Titanic Sinks REAL TIME", 9636),
     youtubeLink("https://www.youtube.com/watch?v=1LrcTa0dDmw", 1, "Into the Abyss: Chemosynthetic Oases (Full Movie)", 3589),
     youtubeLink("https://www.youtube.com/watch?v=FmR14Yng9kI", 1, "Deep Sea Gigantism | Why the Ocean Breeds Giants", 1947),
-    youtubeLink("https://www.youtube.com/watch?v=43-_D_5StVA", 1, " L.A NOIRE FULL GAME Walkthrough Gameplay - (4K 60FPS) - No Commentary ", 66323)
+    youtubeLink("https://www.youtube.com/watch?v=43-_D_5StVA", 1, " L.A NOIRE FULL GAME Walkthrough Gameplay - (4K 60FPS) - No Commentary ", 66323),
+    youtubeLink("https://www.youtube.com/watch?v=9iovcY_P29U", 1, " 'Valley Of Fog' Vampire Crab Paludarium | '안개의 계곡' 60*45*60 뱀파이어크랩 팔루다리움 ", 1165),
+    youtubeLink("https://www.youtube.com/watch?v=a8OYWjIvycY", 1, " Trainhopping to the Adriatic Sea ", 3356),
+    youtubeLink("https://www.youtube.com/watch?v=7kLzyZ9gBa0", 1, " Tropisches Ambiente - Exotische Vögel zwitschern im Tropenwald - Naturgeräusche - 4K UHD ", 28585)
 ]

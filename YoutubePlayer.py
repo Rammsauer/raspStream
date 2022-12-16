@@ -14,7 +14,6 @@ def openYoutube(element):
 
     if element.type == 1:
         webbrowser.open(f'{element.link}&t={point}s')
-
     else:
         webbrowser.open(element.link)
 

@@ -134,5 +134,10 @@ list = [
     youtubeLink("https://www.youtube.com/watch?v=S-L6MlhES-8", 1, " SS Thistelgorm, 1941, WW2 Shipwreck, Scuba Diving, Red Sea Egypt 2018 ", 2914),
     youtubeLink("https://www.youtube.com/watch?v=eUfWlXLm2GM", 1, " Watch the full Titanic expedition ", 5884),
     youtubeLink("https://www.youtube.com/watch?v=na1TgumeDvw", 1, " 6 hours inside the wreck. Exploring the Costa Concordia. Urbex August 2014 ", 4568),
-    youtubeLink("https://www.youtube.com/watch?v=pQQONONo3zQ", 1, " The Division - FULL GAME Walkthrough Gameplay No Commentary ", 85361)
+    youtubeLink("https://www.youtube.com/watch?v=pQQONONo3zQ", 1, " The Division - FULL GAME Walkthrough Gameplay No Commentary ", 85361),
+    youtubeLink("https://www.youtube.com/watch?v=qabmO6EdUdc", 1, " Still Nothing Special ", 2091),
+    youtubeLink("https://www.youtube.com/watch?v=1Aau6imbeSQ", 1, " Extremely Deep River Cave ", 1287),
+    youtubeLink("https://www.youtube.com/watch?v=mbZnhy3IgZs", 1 , " Illegal hiking trip to Chernobyl 2020 COVID edition ", 3876),
+    youtubeLink("https://www.youtube.com/watch?v=Fu4S40oYCH8", 1, " Geheimnisvolle Stadt im Wald entdeckt | Exploring lost places ", 2022),
+    youtubeLink("https://www.youtube.com/watch?v=wmK0gFyxoFI", 1, " The Elder Scrolls V: Skyrim Anniversary Edition Full Game + All DLC ", 40749),
 ]

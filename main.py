@@ -51,9 +51,11 @@ while True:
     randomGif()
 '''
 
-
 random.shuffle(playerList.list)
 
 while True:
     for element in playerList.list:
         youtubePlayer.openYoutube(element)
+
+
+print(youtubePlayer.isVideoAvailable("JnJhFYhIjFs", 0))

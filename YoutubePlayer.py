@@ -14,13 +14,11 @@ def openYoutube(element):
     sleep = random.uniform(int((element.length - point) * 0.8), (element.length - point)) if element.type == 1 and (element.length - point) < 1200 else random.uniform(660, 1200)
 
     if not isVideoAvailable(element.link.replace("https://www.youtube.com/watch?v=", ""), element.type):
-        print(
-            f'{element.link.replace("https://www.youtube.com/watch?v=", "")} | Currently not available | {element.name}')
+        print(f'{element.link.replace("https://www.youtube.com/watch?v=", "")} | Currently not available | {element.name}')
         return
 
     print(f'{element.link.replace("https://www.youtube.com/watch?v=", "")} | {int(sleep)}s | {element.name} ')
 
-    '''
     if element.type == 1:
         webbrowser.open(f'{element.link}&t={point}s')
     else:
@@ -36,7 +34,6 @@ def openYoutube(element):
 
     keyboard.release('w')
     keyboard.release(Key.ctrl_l)
-    '''
 
 
 def isVideoAvailable(id, type):

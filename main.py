@@ -35,9 +35,6 @@ youtubePlayer.fetchData()
 
 random.shuffle(playerList.videoList)
 
-print(playerList.videoList)
-'''
 while True:
-    for element in playerList.list:
+    for element in playerList.videoList:
         youtubePlayer.openYoutube(element)
-'''

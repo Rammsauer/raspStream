@@ -1,42 +1,23 @@
 import os
 import random
+import time
 import webbrowser
 
+import Constants
 import playerList
 import requests
 import ImageViewer as imageViewer
 import YoutubePlayer as youtubePlayer
 import urllib
+import pyperclip
 
 from io import BytesIO
 from PIL import Image
-
-
-def randomImage():
-    folder = r"/media/pi/Volume"
-    image = None
-    file = None
-
-    while file is None:
-        temp = random.choice(os.listdir(folder))
-        if not (temp == "$RECYCLE.BIN" or temp == "System Volume Information"):
-            file = f'{folder}\\{temp}'
-
-    while image is None:
-        try:
-            image = Image.open(file)
-            print(f'{file}')
-            imageViewer.showPIL(image, 5000)
-        except PermissionError as e:
-            file = f'{file}/{random.choice(os.listdir(file))}'
-        except IsADirectoryError as e:
-            file = f'{file}/{random.choice(os.listdir(file))}'
-        except OSError as e:
-            return
+from pynput.keyboard import Key, Controller as kController
 
 
 def randomGif():
-    url = "https://api.giphy.com/v1/gifs/random?api_key=1Q55dtdlmXmoMseH70jeOHIv29sGrPwa"
+    url = f'https://api.giphy.com/v1/gifs/random?api_key={Constants.giphyApiKey}'
     response = requests.get(url)
     id = response.json()['data']['id']
     gifUrl = f'https://i.giphy.com/media/{id}/giphy.gif'
@@ -50,8 +31,13 @@ while True:
     randomGif()
 '''
 
-random.shuffle(playerList.list)
+youtubePlayer.fetchData()
 
+random.shuffle(playerList.videoList)
+
+print(playerList.videoList)
+'''
 while True:
     for element in playerList.list:
         youtubePlayer.openYoutube(element)
+'''

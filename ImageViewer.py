@@ -1,10 +1,15 @@
 import sys
-from tkinter.constants import NW
+import random
+import pyperclip
+import os
+import time
 
+from pynput.keyboard import Key, Controller as kController
 from PIL import Image, ImageTk
 
 if sys.version_info[0] == 2:
     import Tkinter
+
     tkinter = Tkinter
 else:
     import tkinter
@@ -42,3 +47,61 @@ def showPIL(pilImage, duration=1000):
         root.mainloop()
     except OSError as e:
         return
+
+
+def randomImage():
+    folder = r"D:/Hi Res"
+    image = None
+    file = None
+
+    while file is None:
+        temp = random.choice(os.listdir(folder))
+        if not (temp == "$RECYCLE.BIN" or temp == "System Volume Information"):
+            file = f'{folder}/{temp}'
+
+    while image is None:
+        try:
+            image = Image.open(file)
+            pyperclip.copy(f'file:///{file}')
+            print(f'{file}')
+            pressKeys()
+        except PermissionError as e:
+            file = f'{file}/{random.choice(os.listdir(file))}'
+        except IsADirectoryError as e:
+            file = f'{file}/{random.choice(os.listdir(file))}'
+        except OSError as e:
+            return
+
+
+# Bad practice fix soon
+def pressKeys():
+    keyboard = kController()
+
+    keyboard.press(Key.alt_l)
+    keyboard.press("d")
+
+    time.sleep(0.5)
+
+    keyboard.release(Key.alt_l)
+    keyboard.release("d")
+
+    keyboard.press(Key.ctrl_l)
+    keyboard.press("l")
+
+    time.sleep(0.5)
+
+    keyboard.release(Key.ctrl_l)
+    keyboard.release("l")
+
+    keyboard.press(Key.ctrl_l)
+    keyboard.press("v")
+
+    # time.sleep(0.5)
+
+    keyboard.release(Key.ctrl_l)
+    keyboard.release("v")
+
+    time.sleep(0.5)
+
+    keyboard.press(Key.enter)
+    keyboard.release(Key.enter)

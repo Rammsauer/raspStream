@@ -90,7 +90,11 @@ playlist = [
     playList("PLm8I5TkIJrVndzPY9rNjsR1-sJu4AItyC", "Ten Minute World History (Chronological)"),
     playList("PLm8I5TkIJrVniI4w5g5xQO--h8DYWulx2", "Ten Minute German History (Chronological)"),
     playList("PLDbSvEZka6GGm9cigiCJImOCKj6XZ9-gY", "Epicly Later'd"),
-    playList("UULFjFxPoj7j3s8gECyZSM3Qjg", "Yurara Sarara Videos")
+    playList("UULFjFxPoj7j3s8gECyZSM3Qjg", "Yurara Sarara Videos"),
+    playList("PLGibX_M6gXLJFgF852lIBW--P4jZ_ThJP", "LKW Mitfahrt (Führerstandsmitfahrt)"),
+    playList("PLzsxGmGx959pfVDRDoUOFjESxRYSwmXKJ", "Truck away - dashcam videos"),
+    playList("UULFd0zIZlbgvEifm_hd3FwlBQ", "vewn Videos"),
+    playList("UULFd0zIZlbgvEifm_hd3FwlBQ", "Chrisweeet Videos")
 ]
 
 videoList = []

@@ -4,6 +4,7 @@ import time
 import playerList
 import YoutubePlayer as youtubePlayer
 import ImageViewer
+import subprocess
 
 '''
 while True:
@@ -22,7 +23,6 @@ random.shuffle(playerList.videoList)
 while True:
     for element in playerList.videoList:
         youtubePlayer.openYoutube(element)
-
 
 
 '''

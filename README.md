@@ -4,7 +4,7 @@ Python script which plays random videos from a pool in the browser.
 The script was written for a Raspberry Pi 3 Model B, with the additional browser addons it is platform independent.
 
 For the Raspberry Pi it is recommended to set the screen resolution to 1280x720 and the GPU memory to 128 MB in the settings. 
-This can be achieved in the console with the command. <br>
+This can be achieved in the console with the command. <br><br>
 ``
 sudo raspi-config
 ``

@@ -1,26 +1,27 @@
 import random
+import time
+
 import playerList
 import YoutubePlayer as youtubePlayer
 import ImageViewer
 
+'''
 while True:
     image = ImageViewer.randomImage()
 
-'''
 while True:
     randomGif()
+'''
 
+playerList.timeStamp = time.time()
 
 youtubePlayer.fetchData()
 
 random.shuffle(playerList.videoList)
 
-print(playerList.videoList)
-
 while True:
     for element in playerList.videoList:
         youtubePlayer.openYoutube(element)
-'''
 
 
 

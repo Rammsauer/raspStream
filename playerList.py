@@ -34,6 +34,7 @@ Dich nicht zu hinterfragen, du musst es ertragen, dass\n
 Es keine Rolle spielt welche Rolle du bespielst\n
 Wie soll ich dich ernstneh'm wenn du das nicht kapierst\n
 """
+import time
 
 
 class playList:
@@ -93,3 +94,4 @@ playlist = [
 ]
 
 videoList = []
+timeStamp = time.time()

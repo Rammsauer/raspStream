@@ -6,6 +6,7 @@ import urllib
 from PIL import Image
 from io import BytesIO
 
+
 def randomGif():
     url = f'https://api.giphy.com/v1/gifs/random?api_key={Constants.giphyApiKey}'
     response = requests.get(url)

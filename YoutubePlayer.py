@@ -21,7 +21,7 @@ def openYoutube(id):
         return
 
     point = (element.length - random.randrange(int(element.length / 2), element.length)) if element.type == 1 else 1
-    sleep = random.uniform(int((element.length - point) * 0.8), (element.length - point)) if element.type == 1 and (
+    sleep = random.uniform(int((element.length - point) * 0.8), int((element.length - point) * 0.9)) if element.type == 1 and (
             element.length - point) < 1200 else random.uniform(660, 1200)
 
     print(f'{id}&t={point}s | {int(sleep)}s | {"Livestream" if element.type == 0 else "Video"} ')
@@ -30,6 +30,8 @@ def openYoutube(id):
         webbrowser.open(f'{element.link}&t={point}s')
     else:
         webbrowser.open(element.link)
+
+    refreshData()
 
     time.sleep(sleep)
 
@@ -64,7 +66,7 @@ def getVideoInformation(id):
         item = requests.get(url).json().get("items")[0]
 
         name = id
-        type = 1 if item.get("liveStreamingDetails") is None else 0
+        type = 1 if item.get("contentDetails").get("duration") != "P0D" else 0
         duration = isodate.parse_duration(item.get("contentDetails").get("duration")).seconds
 
         return name, type, duration
@@ -94,7 +96,7 @@ def fetchData():
         print(f'Fetching \"{element.name}\" please wait ... ', end="")
         fetchPlaylist(element)
 
-    print("Distinct list ... ", end="")
+    print(f'Distinct list, deleted {len(playerList.videoList) - len(list(set(playerList.videoList)))} items')
     playerList.videoList = list(set(playerList.videoList))
     print(f'Fetched {len(playerList.videoList)} items')
 
@@ -120,3 +122,18 @@ def fetchPlaylist(element):
             playerList.videoList.extend(tempList)
             print(f'fetched {len(tempList)} of {response.get("pageInfo").get("totalResults")} videos')
             break
+
+
+def refreshData():
+    end = time.time()
+
+    # after 24 hours the list will be refreshed
+    if end - playerList.timeStamp < 86400:
+        return
+
+    print(f'Refreshing Data ... ')
+
+    playerList.videoList = []
+    fetchData()
+    random.shuffle(playerList.videoList)
+    playerList.timeStamp = time.time()

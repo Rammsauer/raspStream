@@ -1,30 +1,15 @@
 import random
-import webbrowser
-
-import Constants
 import playerList
-import requests
 import YoutubePlayer as youtubePlayer
-import urllib
+import ImageViewer
 
-from io import BytesIO
-from PIL import Image
-
-
-def randomGif():
-    url = f'https://api.giphy.com/v1/gifs/random?api_key={Constants.giphyApiKey}'
-    response = requests.get(url)
-    id = response.json()['data']['id']
-    gifUrl = f'https://i.giphy.com/media/{id}/giphy.gif'
-    print(gifUrl)
-    image = Image.open(BytesIO(urllib.request.urlopen(gifUrl).read()))
-    webbrowser.open_new(gifUrl)
-
+while True:
+    image = ImageViewer.randomImage()
 
 '''
 while True:
     randomGif()
-'''
+
 
 youtubePlayer.fetchData()
 
@@ -35,6 +20,7 @@ print(playerList.videoList)
 while True:
     for element in playerList.videoList:
         youtubePlayer.openYoutube(element)
+'''
 
 
 

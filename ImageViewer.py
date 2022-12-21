@@ -65,6 +65,7 @@ def randomImage():
             pyperclip.copy(f'file:///{file}')
             print(f'{file}')
             pressKeys()
+            time.sleep(7.5)
         except PermissionError as e:
             file = f'{file}/{random.choice(os.listdir(file))}'
         except IsADirectoryError as e:

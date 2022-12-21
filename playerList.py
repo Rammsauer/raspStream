@@ -76,7 +76,20 @@ playlist = [
     playList("PLbmPIXWNT8TMFxFdjIYu5ardaL-JleFuf", "Guild Wars 2 (Longplay/Lore/Commentary)"),
     playList("PLGWGc5dfbzn9XgNxXmYpDZlDMy3ZLUyEw", "Minecraft [500 - 599]"),
     playList("PLomb3VSQH7wjgtTfy1cDproNuqpMI4d3h", "The Moon"),
-    playList("PLomb3VSQH7whY_McCtAiSkafvWyiYd0hr", "space shuttle")
+    playList("PLomb3VSQH7whY_McCtAiSkafvWyiYd0hr", "space shuttle"),
+    playList("PLcIs13BXKaKP8JbnXgDGC4LHkhKtQjtEx", "Abandoned"),
+    playList("UULF6L605Bf_h3VII43Sqi0CCg", "nickz aquascape Videos"),
+    playList("PLTpc4xYnColcHW7cExsErYMJlu6Fm7o9o", "Season 8"),
+    playList("PLTpc4xYnColdbrZcbFRLUCn6l9h_NUFdV", "Season 7"),
+    playList("PLTpc4xYnColdezBYnrci0WyMzb29_Mhtd", "Season 6"),
+    playList("UULFpSIGHxvNRXyROheVp-QnnQ", "NCFORMULA Videos"),
+    playList("PLlQWnS27jXh9yJXG7NxGG8XJsSE9ziIvz", "Mit offenen Karten | ARTE"),
+    playList("PLhGeNYH-50KZzep96xKRkYLaBSJcAGwEZ", "Blow Up – Filme analysiert | ARTE"),
+    playList("UULFVJXKQF5Er-B2Lf5PCu3Vrg", "Japanese Woodcarving TAKABA Videos"),
+    playList("PLm8I5TkIJrVndzPY9rNjsR1-sJu4AItyC", "Ten Minute World History (Chronological)"),
+    playList("PLm8I5TkIJrVniI4w5g5xQO--h8DYWulx2", "Ten Minute German History (Chronological)"),
+    playList("PLDbSvEZka6GGm9cigiCJImOCKj6XZ9-gY", "Epicly Later'd"),
+    playList("UULFjFxPoj7j3s8gECyZSM3Qjg", "Yurara Sarara Videos")
 ]
 
 videoList = []

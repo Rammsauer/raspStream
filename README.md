@@ -1,6 +1,14 @@
 # Overview
 
-Python Script which plays random videos on Raspberry Pi 3 model B. <br>
+Python script which plays random videos from a pool in the browser. 
+The script was written for a Raspberry Pi 3 Model B, with the additional browser addons it is platform independent.
+
+For the Raspberry Pi it is recommended to set the screen resolution to 1280x720 and the GPU memory to 128 MB in the settings. 
+This can be achieved in the console with the command. <br>
+``
+sudo raspi-config
+``
+
 
 ### Chromium Add-ons
 
@@ -30,5 +38,7 @@ python3 main.py
 ``
 
 ### Videopool
-The Pool of Videos can be found under [the following file](https://github.com/Rammsauer/raspStream/blob/master/playerList.py). 
-There are currently hardcoded Playlisturls witch will be fetched at the beginning, because it is currently not possible to fetch saved playlist, according to [YouTube API Docs](https://developers.google.com/youtube/v3/docs).
+The video pool with its playlists is located in the following [file](https://github.com/Rammsauer/raspStream/blob/master/playerList.py).
+
+The playlist urls are currently still hardcoded, since according to the [YouTube API Docs](https://developers.google.com/youtube/v3/docs) it is not yet possible to get saved playlists from your channel. 
+Single videos can be saved under the playlist "[Livingroom Stream](https://www.youtube.com/playlist?list=PLHNwwBUMYsHYK4Klp5_YsHbPMecplf_-7)", which is also stored in the Videopool file.

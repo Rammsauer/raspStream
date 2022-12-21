@@ -1,4 +1,3 @@
-import os
 import random
 import time
 import webbrowser
@@ -6,14 +5,11 @@ import webbrowser
 import Constants
 import playerList
 import requests
-import ImageViewer as imageViewer
 import YoutubePlayer as youtubePlayer
 import urllib
-import pyperclip
 
 from io import BytesIO
 from PIL import Image
-from pynput.keyboard import Key, Controller as kController
 
 
 def randomGif():
@@ -35,6 +31,23 @@ youtubePlayer.fetchData()
 
 random.shuffle(playerList.videoList)
 
+print(playerList.videoList)
+
 while True:
     for element in playerList.videoList:
         youtubePlayer.openYoutube(element)
+
+
+
+'''
+not working build in later
+while True:
+    print(".", end='\r', flush=True)
+    time.sleep(.5)
+    print("..", end='\r', flush=True)
+    time.sleep(.5)
+    print("...", end='\r', flush=True)
+    time.sleep(.5)
+    print("", end='\r', flush=True)
+    time.sleep(.5)
+'''

@@ -91,16 +91,17 @@ def isVideoAvailable(id, type):
 
 def fetchData():
     for element in playerList.playlist:
-        print(f'Fetching \"{element.name}\" please wait ... ')
+        print(f'Fetching \"{element.name}\" please wait ... ', end="")
         fetchPlaylist(element)
 
-    print("Distinct list ... ")
+    print("Distinct list ... ", end="")
     playerList.videoList = list(set(playerList.videoList))
     print(f'Fetched {len(playerList.videoList)} items')
 
 
 def fetchPlaylist(element):
     response = ""
+    tempList = []
 
     while True:
         url = f'https://www.googleapis.com/youtube/v3/playlistItems?' \
@@ -113,8 +114,9 @@ def fetchPlaylist(element):
         response = requests.get(url).json()
 
         for elements in response.get("items"):
-            playerList.videoList.append(elements.get("contentDetails").get("videoId"))
+            tempList.append(elements.get("contentDetails").get("videoId"))
 
         if response.get("nextPageToken") is None:
-            print(f'Fetched {response.get("pageInfo").get("totalResults")} videos')
+            playerList.videoList.extend(tempList)
+            print(f'fetched {len(tempList)} of {response.get("pageInfo").get("totalResults")} videos')
             break

@@ -26,10 +26,7 @@ def openYoutube(id):
 
     print(f'{id}&t={point}s | {int(sleep)}s | {"Livestream" if element.type == 0 else "Video"} ')
 
-    if element.type == 1:
-        webbrowser.open(f'{element.link}&t={point}s')
-    else:
-        webbrowser.open(element.link)
+    webbrowser.open(f'{element.link}&t={point}s' if element.type == 1 else element.link)
 
     refreshData()
 

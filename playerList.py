@@ -94,7 +94,8 @@ playlist = [
     playList("PLGibX_M6gXLJFgF852lIBW--P4jZ_ThJP", "LKW Mitfahrt (Führerstandsmitfahrt)"),
     playList("PLzsxGmGx959pfVDRDoUOFjESxRYSwmXKJ", "Truck away - dashcam videos"),
     playList("UULFd0zIZlbgvEifm_hd3FwlBQ", "vewn Videos"),
-    playList("UULFd0zIZlbgvEifm_hd3FwlBQ", "Chrisweeet Videos")
+    playList("UULFd0zIZlbgvEifm_hd3FwlBQ", "Chrisweeet Videos"),
+    playList("UULFwRH985XgMYXQ6NxXDo8npw", "Kurzgesagt Videos")
 ]
 
 videoList = []

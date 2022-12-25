@@ -52,6 +52,11 @@ class youtubeLink:
         self.length = length
 
 
+playListTesting = [
+    playList("PLHNwwBUMYsHYK4Klp5_YsHbPMecplf_-7", "Livingroom Stream"),
+    playList("UULFAimZZtQYPMkBPA-8VEMrvg", "비오토프 갤러리 biotope gallery Videos")
+]
+
 playlist = [
     playList("PLHNwwBUMYsHYK4Klp5_YsHbPMecplf_-7", "Livingroom Stream"),
     playList("UULFAimZZtQYPMkBPA-8VEMrvg", "비오토프 갤러리 biotope gallery Videos"),
@@ -95,7 +100,8 @@ playlist = [
     playList("PLzsxGmGx959pfVDRDoUOFjESxRYSwmXKJ", "Truck away - dashcam videos"),
     playList("UULFd0zIZlbgvEifm_hd3FwlBQ", "vewn Videos"),
     playList("UULFd0zIZlbgvEifm_hd3FwlBQ", "Chrisweeet Videos"),
-    playList("UULFwRH985XgMYXQ6NxXDo8npw", "Kurzgesagt Videos")
+    playList("UULFwRH985XgMYXQ6NxXDo8npw", "Kurzgesagt Videos"),
+    playList("UULFB4TfJF97Ki1Ko4ZbgmmBFg", "내츄럴팟 NATURALLPOT Videos")
 ]
 
 videoList = []

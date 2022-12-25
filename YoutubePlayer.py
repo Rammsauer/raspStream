@@ -24,7 +24,10 @@ def openYoutube(id):
     sleep = random.uniform(int((element.length - point) * 0.8), int((element.length - point) * 0.9)) if element.type == 1 and (
             element.length - point) < 1200 else random.uniform(660, 1200)
 
-    print(f'{id}&t={point}s | {int(sleep)}s | {"Livestream" if element.type == 0 else "Video"} ')
+    print(f'{"Livestream" if element.type == 0 else "Video"} | '
+          f'{int(sleep)}s | '
+          f'{id}&t={point}s | '
+          f'{element.name.replace("|", ",")}')
 
     webbrowser.open(f'{element.link}&t={point}s' if element.type == 1 else element.link)
 
@@ -55,14 +58,14 @@ def getElement(id):
 
 def getVideoInformation(id):
     url = f'https://www.googleapis.com/youtube/v3/videos?' \
-          f'part=liveStreamingDetails,contentDetails&' \
+          f'part=liveStreamingDetails,contentDetails,snippet&' \
           f'id={id}&' \
           f'key={Constants.youtubeApiKey}'
 
     try:
         item = requests.get(url).json().get("items")[0]
 
-        name = id
+        name = item.get("snippet").get("title")
         type = 1 if item.get("contentDetails").get("duration") != "P0D" else 0
         duration = isodate.parse_duration(item.get("contentDetails").get("duration")).seconds
 
@@ -89,7 +92,7 @@ def isVideoAvailable(id, type):
 
 
 def fetchData():
-    for element in playerList.playlist:
+    for element in playerList.playListTesting:
         print(f'Fetching \"{element.name}\" please wait ... ', end="")
         fetchPlaylist(element)
 

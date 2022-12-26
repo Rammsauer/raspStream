@@ -101,7 +101,15 @@ playlist = [
     playList("UULFd0zIZlbgvEifm_hd3FwlBQ", "vewn Videos"),
     playList("UULFd0zIZlbgvEifm_hd3FwlBQ", "Chrisweeet Videos"),
     playList("UULFwRH985XgMYXQ6NxXDo8npw", "Kurzgesagt Videos"),
-    playList("UULFB4TfJF97Ki1Ko4ZbgmmBFg", "내츄럴팟 NATURALLPOT Videos")
+    playList("UULFB4TfJF97Ki1Ko4ZbgmmBFg", "내츄럴팟 NATURALLPOT Videos"),
+    playList("UULFgiKpZ_zSDlmAYCS4wHJmXA", "The Creative Scaper"),
+    playList("PLZuWPpOcX8wpcx24c6OCNz_kfdjzyXcEq", "sketchbook tour"),
+    playList("PLRcvJ6ZVfvpvfUbEZHTXZkGn3YF3GBoER", "Sketchbook tour"),
+    playList("PLlIcc-4qRNMrtaKLzMkHm-7DDThzjUFZF", "Sketchbook Tour"),
+    playList("PLKozNXkP6ssfbo98ZUUbHjhTySBaUrrCB", "Sketchbook Tour"),
+    playList("PLvt5Y9djRDM4v9qqnr_WzesbpPP0KM180", "Sketchbook tour"),
+    playList("PLqiv4thFjAjXnIQ9yaDIJcRlhl3-han9s", "Sketchbook Tour"),
+    playList("UULFEDMq9pI5h18GsNtvgzsrlg", "Danny Hawk Videos")
 ]
 
 videoList = []

@@ -92,7 +92,7 @@ def isVideoAvailable(id, type):
 
 
 def fetchData():
-    for element in playerList.playListTesting:
+    for element in playerList.playlist:
         print(f'Fetching \"{element.name}\" please wait ... ', end="")
         fetchPlaylist(element)
 

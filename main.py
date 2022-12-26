@@ -4,7 +4,6 @@ import time
 import playerList
 import YoutubePlayer as youtubePlayer
 import ImageViewer
-import subprocess
 
 '''
 while True:

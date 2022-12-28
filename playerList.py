@@ -109,7 +109,8 @@ playlist = [
     playList("PLKozNXkP6ssfbo98ZUUbHjhTySBaUrrCB", "Sketchbook Tour"),
     playList("PLvt5Y9djRDM4v9qqnr_WzesbpPP0KM180", "Sketchbook tour"),
     playList("PLqiv4thFjAjXnIQ9yaDIJcRlhl3-han9s", "Sketchbook Tour"),
-    playList("UULFEDMq9pI5h18GsNtvgzsrlg", "Danny Hawk Videos")
+    playList("UULFEDMq9pI5h18GsNtvgzsrlg", "Danny Hawk Videos"),
+    playList("UULFruu9ub1fYnRAnkzk6yx9tg", "Mountain Rug Cleaning Videos")
 ]
 
 videoList = []

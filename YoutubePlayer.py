@@ -1,3 +1,4 @@
+import os
 import time
 import random
 import webbrowser
@@ -130,6 +131,8 @@ def refreshData():
     # after 24 hours the list will be refreshed
     if end - playerList.timeStamp < 86400:
         return
+
+    os.system("sudo apt clean")
 
     print(f'Refreshing Data ... ')
 

@@ -30,5 +30,8 @@ Flow für jeden der drauf steht, Professorin bis Prolet\n
 Mein Antikitschpamphlet in Pöbelmentalität\n
 """
 
-youtubeApiKey = "AIzaSyBWX8m2s8dDApAqP9Z7u5Fhc-vF2EQehSk"
-giphyApiKey = "1Q55dtdlmXmoMseH70jeOHIv29sGrPwa"
+# Put your Google API Key in here
+youtubeApiKey = ""
+
+# Put your Giphy API Key in here
+giphyApiKey = ""

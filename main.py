@@ -11,7 +11,6 @@ while True:
 
 while True:
     randomGif()
-'''
 
 playerList.timeStamp = time.time()
 
@@ -22,7 +21,7 @@ random.shuffle(playerList.videoList)
 while True:
     for element in playerList.videoList:
         youtubePlayer.openYoutube(element)
-
+'''
 
 '''
 not working build in later
@@ -36,3 +35,10 @@ while True:
     print("", end='\r', flush=True)
     time.sleep(.5)
 '''
+
+import pyautogui
+
+while True:
+    time.sleep(60)
+
+    pyautogui.click()

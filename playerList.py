@@ -1,38 +1,8 @@
 """
-Du willst Vorbild sein und die Welt ganz gerne retten\n
-Dann gib keine Workshops, kannst du selber nicht mal rappen\n
-Doch noble Absicht, schlechter Ansatz geht über Gehabe\n
-Rap vermarktet sich gerade, die Aussage bleibt Blamage\n
-
-Ja man feiert euern Sound, wer feiert was ihr sagt\n
-Ich feil an meinem Sound, jeder Part ein Unikat\n
-Resort Pöbel Sports, schlau und aggressiv\n
-Ihr versteckt euch hinter Beats und macht auf künstlich primitiv\n
-
-Opfer kiff mal deinen Joint, mach mal deinen Stich\n
-Aber tue uns nen Gefallen und behalt den Rotz für dich\n
-Zwei Tracks, deiner Toy-Gang geh'n die Themen aus\n
-Ich lass das Leben laufen, du pflegst deinen Lebenslauf\n
-
-Im gleichen Atemzug wird von Realness fantasiert\n
-Deutschrap liebt den Heldenepos, gibt sich Riefenstahlisiert\n
-Liebt den Opfermythos wie die Dolchstoßlegende\n
-Doch ist letztendlich versnobter als ein Golfklubgelände\n
-
-Und glotzt nicht auf den Inhalt, sondern auf den Preis\n
-Grün, gelb und lila bilden weiß\n
-Auch Feminismus lässt sich ganz leicht antwerken (shake your ass)\n
-MTV und Nike machen Hip-Hop wieder urban\n
-
 Es wird sich alles einverleibt, kurze Haltung für den Hype\n
 Marketinggeniestreich, Playlistaktivistenvibe\n
 Deutschrap für Schaumschläger, wir bleiben Bombenleger (yeah)\n
 Du bist der Werbeträger und wir die Würdenträger\n
-
-Und wer du bist ist kein Argument für mich\n
-Dich nicht zu hinterfragen, du musst es ertragen, dass\n
-Es keine Rolle spielt welche Rolle du bespielst\n
-Wie soll ich dich ernstneh'm wenn du das nicht kapierst\n
 """
 import time
 

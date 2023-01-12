@@ -43,8 +43,7 @@ python3 main.py
 ### Videopool
 The video pool with its playlists is located in the following [file](https://github.com/Rammsauer/raspStream/blob/master/playerList.py).
 
-The playlist urls are currently still hardcoded, since according to the [YouTube API Docs](https://developers.google.com/youtube/v3/docs) it is not yet possible to get saved playlists from your channel. 
-Single videos can be saved under the playlist "[Livingroom Stream](https://www.youtube.com/playlist?list=PLHNwwBUMYsHYK4Klp5_YsHbPMecplf_-7)", which is also stored in the Videopool file.
+The playlist urls are currently still hardcoded, since according to the [YouTube API Docs](https://developers.google.com/youtube/v3/docs) it is not yet possible to get saved playlists from your channel.
 
 ---
 

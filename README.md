@@ -15,6 +15,7 @@ sudo raspi-config
 - [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=de)
 - [Fullscreen Anything](https://chrome.google.com/webstore/detail/fullscreen-anything/olcfgpmjldkkjdclidhcbonieibfhhdh?hl=de)
 - [h264ify](https://chrome.google.com/webstore/detail/h264ify/aleakchihdccplidncghkekgioiakgal?hl=de)
+- [Unhook](https://chrome.google.com/webstore/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid?hl=de)
 
 ### Extra PIP installations
 - pynput

@@ -33,6 +33,12 @@ python3 -m pip install isodate
 ``
 python3 -m pip install tkinter
 ``
+- pyperclip
+
+
+``
+python3 -m pip install pyperclip
+``
 ### Running the Script
 On the Raspberry Pi the browser should be open before, because the newly opened tab is closed every time from the script. 
 To save computing power it is recommended to leave an empty tab open, so that the browser does not have to be reinitialized every time a new video is opened. 

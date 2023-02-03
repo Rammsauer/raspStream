@@ -35,9 +35,13 @@ python3 -m pip install tkinter
 ``
 - pyperclip
 
-
 ``
 python3 -m pip install pyperclip
+``
+- pyautogui
+
+``
+python3 -m pip install pyautogui
 ``
 ### Running the Script
 On the Raspberry Pi the browser should be open before, because the newly opened tab is closed every time from the script. 

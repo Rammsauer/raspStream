@@ -1,3 +1,4 @@
+import json
 import random
 import time
 
@@ -12,6 +13,7 @@ while True:
     randomGif()
 '''
 
+'''
 playerList.timeStamp = time.time()
 
 youtubePlayer.fetchData()
@@ -21,6 +23,7 @@ random.shuffle(playerList.videoList)
 while True:
     for element in playerList.videoList:
         youtubePlayer.openYoutube(element)
+'''
 
 '''
 not working build in later
@@ -41,3 +44,20 @@ while True:
 
     pyautogui.click()
 '''
+
+
+def updateList():
+    jsonList = []
+
+    for element in playerList.playlist:
+        jsonList.append({
+            "id": element.id,
+            "name": element.name
+        })
+
+    f = open("list.json", "w")
+    f.write(json.dumps(jsonList))
+    f.close()
+
+
+updateList()

@@ -24,8 +24,6 @@ youtubePlayer.fetchData()
 
 random.shuffle(playerList.videoList)
 
-youtubePlayer.refreshData()
-
 while True:
     for element in playerList.videoList:
         youtubePlayer.openYoutube(element)
@@ -64,5 +62,6 @@ def updateList():
     f = open("list.json", "w")
     f.write(json.dumps(jsonList))
     f.close()
+
 
 updateList()

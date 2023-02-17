@@ -16,7 +16,6 @@ while True:
     randomGif()
 '''
 
-'''
 playerList.timeStamp = time.time()
 playerList.list = youtubePlayer.getPlayList()
 
@@ -27,7 +26,7 @@ random.shuffle(playerList.videoList)
 while True:
     for element in playerList.videoList:
         youtubePlayer.openYoutube(element)
-'''
+
 
 '''
 not working build in later

@@ -35,3 +35,5 @@ youtubeApiKey = ""
 
 # Put your Giphy API Key in here
 giphyApiKey = ""
+
+rawJsonPlaylist = "https://raw.githubusercontent.com/Rammsauer/raspStream/master/list.json"

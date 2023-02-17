@@ -92,9 +92,14 @@ def isVideoAvailable(id, type):
     return True
 
 
+def getPlayList():
+    print("Fetching playlist...")
+    return requests.get(Constants.rawJsonPlaylist).json()
+
+
 def fetchData():
-    for element in playerList.playlist:
-        print(f'Fetching \"{element.name}\" please wait ... ', end="")
+    for element in playerList.list:
+        print(f'Fetching \"{element.get("name")}\" please wait ... ', end="")
         fetchPlaylist(element)
 
     print(f'Distinct list, deleted {len(playerList.videoList) - len(list(set(playerList.videoList)))} items')
@@ -109,7 +114,7 @@ def fetchPlaylist(element):
     while True:
         url = f'https://www.googleapis.com/youtube/v3/playlistItems?' \
               f'part=contentDetails&' \
-              f'playlistId={element.id}&' \
+              f'playlistId={element.get("id")}&' \
               f'key={Constants.youtubeApiKey}&' \
               f'maxResults=50&' \
               f'pageToken={response.get("nextPageToken") if response != "" else ""}'
@@ -137,6 +142,7 @@ def refreshData():
     print(f'Refreshing Data ... ')
 
     playerList.videoList = []
+    playerList.list = getPlayList()
     fetchData()
     random.shuffle(playerList.videoList)
     playerList.timeStamp = time.time()

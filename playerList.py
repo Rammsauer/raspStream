@@ -22,11 +22,6 @@ class youtubeLink:
         self.length = length
 
 
-playListTesting = [
-    playList("PLHNwwBUMYsHYK4Klp5_YsHbPMecplf_-7", "Livingroom Stream"),
-    playList("UULFAimZZtQYPMkBPA-8VEMrvg", "비오토프 갤러리 biotope gallery Videos")
-]
-
 playlist = [
     playList("PLHNwwBUMYsHYK4Klp5_YsHbPMecplf_-7", "Livingroom Stream"),
     playList("UULFAimZZtQYPMkBPA-8VEMrvg", "비오토프 갤러리 biotope gallery Videos"),
@@ -98,7 +93,7 @@ playlist = [
     playList("PLbmPIXWNT8TMFxFdjIYu5ardaL-JleFuf", "Guild Wars 2 (Longplay/Lore/Commentary)"),
     playList("PL2XOPpYaVR48Ccftgn7GC5Qzzmhf3y01T", "Avatar: The Last Airbender - Season 1 | Full Episodes"),
     playList("PL2XOPpYaVR488hwV0AGTGiMxZ-rjtL48T", "Avatar: The Last Airbender - Season 2 | Full Episodes"),
-    playList("UULFqd1aV6gTudT5TY8YVzK2Dg", "Nestbox")
+    playList("UULFqd1aV6gTudT5TY8YVzK2Dg", "Nestbox"),
 ]
 
 videoList = []

@@ -54,9 +54,11 @@ def updateList():
             "name": element.name
         })
 
-    f = open("list.json", "w")
-    f.write(json.dumps(jsonList))
-    f.close()
+
+    file= open("list.json", "w")
+    json.dump(jsonList, file, indent=2)
+    file.close()
 
 
+updateList()
 playVideos()

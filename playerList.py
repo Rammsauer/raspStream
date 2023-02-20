@@ -32,7 +32,7 @@ playlist = [
     playList("UULF3Kk8tvhHkWMMfKBb0q0X9g", "Foo the Flowerhorn Videos"),
     playList("PLmgMIv_--P1LApuqFs79Dtu5xngLrEM70", "Abandoned Mines"),
     playList("PLcDFnATD_aoxSaoJWw3NUn4c3lCJ_CSXq", "Rain Walk"),
-    playList("PL6poUgHngiIFjE2nqpoRbE7Wm1QBmAP9r", "Southwest Airlines Inflight"),
+    playList("PL6poUgHngiIE__M8MrqNTU4i18wCVdEEp", "Delta Air Lines Inflight"),
     playList("PL41b0O3MiKnaE5oEcbrYU4BUMqcBafban", "NA106-Full ROV Hercules Dives"),
     playList("PLt72GzVTEThVqZR8j8u9M4bIilP-wRjSU", "Cabview"),
     playList("PLt72GzVTEThUdNFCZyg7mp0EOZUaCdqdL", "POV"),
@@ -94,6 +94,15 @@ playlist = [
     playList("PL2XOPpYaVR48Ccftgn7GC5Qzzmhf3y01T", "Avatar: The Last Airbender - Season 1 | Full Episodes"),
     playList("PL2XOPpYaVR488hwV0AGTGiMxZ-rjtL48T", "Avatar: The Last Airbender - Season 2 | Full Episodes"),
     playList("UULFqd1aV6gTudT5TY8YVzK2Dg", "Nestbox"),
+    playList("UULFO7fujFV_MuxTM0TuZrnE6Q", "Felix Coolgrave Videos"),
+    playList("UULFYl3XBFfJ6_R3-NdBKI3bmA", "Cite Online"),
+    playList("UULFphzfT6GUqFkHEyJ_nUYlZA", "lorenzo fresta"),
+    playList("PLQifxFROE1sd84BBgTmjoOvYMU7KzALBb", "Rise"),
+    playList("PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab", "Essence of linear algebra"),
+    playList("PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr", "Essence of calculus"),
+    playList("PLZHQObOWTQDNPOjrT6KVlfJuKtYTftqH6", "Differential equations"),
+    playList("PLZHQObOWTQDMXMi3bUMThGdYqos36X_lA", "Geometry"),
+    playList("UULFHmVAKGT0AcuD24zyjG1xYQ", "Eric Rowland")
 ]
 
 videoList = []

@@ -22,7 +22,8 @@ def openYoutube(id):
         return
 
     point = (element.length - random.randrange(int(element.length / 2), element.length)) if element.type == 1 else 1
-    sleep = random.uniform(int((element.length - point) * 0.8), int((element.length - point) * 0.9)) if element.type == 1 and (
+    sleep = random.uniform(int((element.length - point) * 0.8),
+                           int((element.length - point) * 0.9)) if element.type == 1 and (
             element.length - point) < 1200 else random.uniform(660, 1200)
 
     print(f'{"Livestream" if element.type == 0 else "Video"} | '
@@ -30,6 +31,7 @@ def openYoutube(id):
           f'{id}&t={point}s | '
           f'{element.name.replace("|", ",")}')
 
+    '''
     webbrowser.open(f'{element.link}&t={point}s' if element.type == 1 else element.link)
 
     refreshData()
@@ -44,6 +46,7 @@ def openYoutube(id):
 
     keyboard.release('w')
     keyboard.release(Key.ctrl_l)
+    '''
 
 
 def getElement(id):
@@ -98,13 +101,16 @@ def getPlayList():
 
 
 def fetchData():
-    for element in playerList.list:
+    for element in playerList.rawList:
         print(f'Fetching \"{element.get("name")}\" please wait ... ', end="")
         fetchPlaylist(element)
 
-    print(f'Distinct list, deleted {len(playerList.videoList) - len(list(set(playerList.videoList)))} items')
-    playerList.videoList = list(set(playerList.videoList))
-    print(f'Fetched {len(playerList.videoList)} items')
+    print('Shuffling list ...')
+    shuffleList()
+
+    #print(f'Distinct list, deleted {len(playerList.videoList) - len(list(set(playerList.videoList)))} items')
+    #playerList.videoList = list(set(playerList.videoList))
+    #print(f'Fetched {len(playerList.videoList)} items')
 
 
 def fetchPlaylist(element):
@@ -125,7 +131,13 @@ def fetchPlaylist(element):
             tempList.append(elements.get("contentDetails").get("videoId"))
 
         if response.get("nextPageToken") is None:
-            playerList.videoList.extend(tempList)
+            playerList.playListWithVideos.append(
+                playerList.playList(
+                    id=element.get("id"),
+                    name=element.get("name"),
+                    videoList=tempList
+                )
+            )
             print(f'fetched {len(tempList)} of {response.get("pageInfo").get("totalResults")} videos')
             break
 
@@ -142,7 +154,30 @@ def refreshData():
     print(f'Refreshing Data ... ')
 
     playerList.videoList = []
-    playerList.list = getPlayList()
+    playerList.rawList = getPlayList()
     fetchData()
-    random.shuffle(playerList.videoList)
     playerList.timeStamp = time.time()
+
+
+def shuffleList():
+    isEmpty = False
+
+    while not isEmpty:
+        tempList = playerList.playListWithVideos
+
+        random.shuffle(tempList)
+
+        for i in range(-1, len(tempList) - 1):
+            if i < len(tempList):
+                element = tempList[i]
+
+                videoId = random.choice(element.videoList)
+                element.videoList.remove(videoId)
+
+                playerList.videoList.append(videoId)
+
+                if not element.videoList:
+                    playerList.playListWithVideos.remove(element)
+
+            if len(playerList.playListWithVideos) == 0:
+                isEmpty = True

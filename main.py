@@ -1,5 +1,4 @@
 import json
-import random
 import time
 import playerList
 import YoutubePlayer as youtubePlayer
@@ -34,11 +33,9 @@ while True:
 
 def playVideos():
     playerList.timeStamp = time.time()
-    playerList.list = youtubePlayer.getPlayList()
+    playerList.rawList = youtubePlayer.getPlayList()
 
     youtubePlayer.fetchData()
-
-    random.shuffle(playerList.videoList)
 
     while True:
         for element in playerList.videoList:
@@ -48,14 +45,13 @@ def playVideos():
 def updateList():
     jsonList = []
 
-    for element in playerList.playlist:
+    for element in playerList.rawPlaylist:
         jsonList.append({
             "id": element.id,
             "name": element.name
         })
 
-
-    file= open("list.json", "w")
+    file = open("list.json", "w")
     json.dump(jsonList, file, indent=2)
     file.close()
 

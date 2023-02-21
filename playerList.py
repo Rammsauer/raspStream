@@ -8,9 +8,10 @@ import time
 
 
 class playList:
-    def __init__(self, id, name):
+    def __init__(self, id, name, videoList=[]):
         self.id = id
         self.name = name
+        self.videoList = videoList
 
 
 # 1 = Video, 0 = Livestream
@@ -22,7 +23,7 @@ class youtubeLink:
         self.length = length
 
 
-playlist = [
+rawPlaylist = [
     playList("PLHNwwBUMYsHYK4Klp5_YsHbPMecplf_-7", "Livingroom Stream"),
     playList("UULFAimZZtQYPMkBPA-8VEMrvg", "비오토프 갤러리 biotope gallery Videos"),
     playList("PL6cBY6KLoZ_FsdV8ViAeMrMpJ8VlhwPF6", "Painter Yushkevich Victor Nikolaevich."),
@@ -105,6 +106,8 @@ playlist = [
     playList("UULFHmVAKGT0AcuD24zyjG1xYQ", "Eric Rowland")
 ]
 
+playListWithVideos = []
+
 videoList = []
 timeStamp = time.time()
-list = []
+rawList = []

@@ -52,7 +52,7 @@ python3 main.py
 ``
 
 ### Videopool
-The video pool with its playlists is located in the following [file](https://github.com/Rammsauer/raspStream/blob/master/playerList.py).
+The video pool with its playlists is located in the following [raw file](https://raw.githubusercontent.com/Rammsauer/raspStream/master/list.json) which will be fetched every 24 hours.
 
 The playlist urls are currently still hardcoded, since according to the [YouTube API Docs](https://developers.google.com/youtube/v3/docs) it is not yet possible to get saved playlists from your channel.
 

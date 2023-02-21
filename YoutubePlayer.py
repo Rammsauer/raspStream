@@ -31,7 +31,6 @@ def openYoutube(id):
           f'{id}&t={point}s | '
           f'{element.name.replace("|", ",")}')
 
-
     webbrowser.open(f'{element.link}&t={point}s' if element.type == 1 else element.link)
 
     refreshData()

@@ -109,7 +109,13 @@ rawPlaylist = [
     playList("PLlQWnS27jXh_MTh5Z3PcgBGlRGQA6voQQ", "Psycho | ARTE"),
     playList("PL7XEIbRSawnKP60vEGnGl0LUTYP8cPeMZ", "HYPECULTURE Videos"),
     playList("PLUDUbAMfq42mSoA-PWktJjGYE107H01Te", "Stories & Essays"),
-    playList("PLUDUbAMfq42mSoA-PWktJjGYE107H01Te", "Ultralativ")
+    playList("PLUDUbAMfq42mSoA-PWktJjGYE107H01Te", "Ultralativ"),
+    playList("UULFGwu0nbY2wSkW8N-cghnLpA", "Jaiden Animations"),
+    playList("PLbdSi72ah3puMBGa4eLQMNKn4OqaVPsHF", "Casually Explained"),
+    playList("UULF99dQAoUCeFjT8AVKUEGnDA", "пасош pasosh"),
+    playList("PLAQ3zBKuVTbFnYLcRJhbAVeiro-ezQE30", "Heikos Welt"),
+    playList("UULPshyO4oCfROUZ6-6RccfKOg", "tracklib"),
+    playList("PL2yt9TY3ZomOBjlwoN23H7bh329ub-he5", "1up"),
 ]
 
 playListWithVideos = []

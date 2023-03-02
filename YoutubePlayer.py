@@ -108,7 +108,7 @@ def fetchData():
 
     #print(f'Distinct list, deleted {len(playerList.videoList) - len(list(set(playerList.videoList)))} items')
     #playerList.videoList = list(set(playerList.videoList))
-    #print(f'Fetched {len(playerList.videoList)} items')
+    print(f'Fetched {len(playerList.videoList)} items')
 
 
 def fetchPlaylist(element):

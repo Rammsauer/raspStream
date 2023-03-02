@@ -103,7 +103,13 @@ rawPlaylist = [
     playList("PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr", "Essence of calculus"),
     playList("PLZHQObOWTQDNPOjrT6KVlfJuKtYTftqH6", "Differential equations"),
     playList("PLZHQObOWTQDMXMi3bUMThGdYqos36X_lA", "Geometry"),
-    playList("UULFHmVAKGT0AcuD24zyjG1xYQ", "Eric Rowland")
+    playList("UULFHmVAKGT0AcuD24zyjG1xYQ", "Eric Rowland"),
+    playList("PLlQWnS27jXh-RHHmCLg5EhQjr7wR2-xdb", "Crazy Borders Arte"),
+    playList("PLlQWnS27jXh88APD2VAtfzHhvQ_BYpVSM", "ARTE Re: Reportagen aus Europa"),
+    playList("PLlQWnS27jXh_MTh5Z3PcgBGlRGQA6voQQ", "Psycho | ARTE"),
+    playList("PL7XEIbRSawnKP60vEGnGl0LUTYP8cPeMZ", "HYPECULTURE Videos"),
+    playList("PLUDUbAMfq42mSoA-PWktJjGYE107H01Te", "Stories & Essays"),
+    playList("PLUDUbAMfq42mSoA-PWktJjGYE107H01Te", "Ultralativ")
 ]
 
 playListWithVideos = []

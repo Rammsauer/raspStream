@@ -116,6 +116,8 @@ rawPlaylist = [
     playList("PLAQ3zBKuVTbFnYLcRJhbAVeiro-ezQE30", "Heikos Welt"),
     playList("UULPshyO4oCfROUZ6-6RccfKOg", "tracklib"),
     playList("PL2yt9TY3ZomOBjlwoN23H7bh329ub-he5", "1up"),
+    playList("UULFL0UAVwPBK9rv5CPjK1XRLg", "MulMung Videos"),
+    playList("PLZiJdPaSgqU3DACQ_kR0VYeo1eDaoc-qK", "Purebrush Videos")
 ]
 
 playListWithVideos = []

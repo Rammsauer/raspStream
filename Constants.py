@@ -1,33 +1,48 @@
 """
-Pisser labern rum, sie wollen Frauen nur ins Bett kriegen\n
-Aber komm'n nicht klar, wenn Chayas einen Dicken schieben\n
-Wettern gegen Frauenrap, kompensieren ihre Ängste\n
-Bedrohte Männlichkeit, Minderwertigkeitskomplexe\n
+Ich fühl' mich ganz okay, doch ich spür' schon wie es fällt\n
+Ich lieg' im Dunkeln wie die Zukunft dieser Welt\n
+Kalter Schweiß klebt am Kopf\n
+Der Geist kreist in der Ferne, Gedankenrausch ins Leere\n
+Das Salz der Suppe meines Lebens\n
+Läuft an meinen Wangen runter in Gestalt von scharfen Tränen\n
+Egomanie schlägt meine Dystopie nieder\n
+Ich zieh' zwei Instagramm bei meinem Dopamindealer\n
+Gestellte Lebenslust im Uterus der Ruhmessucht\n
+Mit Hinz und Kunz im Luderkuss\n
+Ein paar schleimig feuchte Lippen auf der Haut sind kein Problem\n
+Um unsre Triebe zu befrieden, müssen wir uns nicht versteh'n \n
 
-Auch so manche Pseudofeministengenderkriegeruschi\n
-Ist ein halbwissender Macker, nur eben mit ner Muschi\n
-Scheiß auf Anatomie, hier kriegt keiner Amnestie\n
-Pöbel MC Autarkie, Battlehegemonie\n
+Ich bin verliebt (Ja), doch leider nur in mich\n
+Toys kann man wegficken, Einsamkeit nicht\n
+Wir sind verliebt (Ja), doch jeder nur in sich\n
+Ehrlichkeit entwaffnet zuallererst dich\n
+Mein Tor zur Erde ist ein kleiner schwarzer Spiegel\n
+Der mehr über mich weiß als die Menschen, die mich lieben\n
+In Zukunft geh' ich nicht mehr fremd\n
+In Zukunft ohne dich, die Wahrheit lohnt sich nicht\n
 
-Jammert 'rum ihr Kinder, ich bin nicht die UNICEF\n
-Du machst auf Uni-Chef, ich bleibe Phrasendrescherhäscher\n
-Klatsch' Studentenrapper weg, auch aus Selbstkritik\n
-Mit mir selbst im Krieg, ironisch selbstverliebt\n
 
-Für weitere Selbstentblößung sucht ihr euch bitte einen Gigolo\n
-Mein Rap ist kein Prolloscheiß, sondern Realtalk mit Triggerrisiko\n
-Selbst wenn ich nur pöbel', werden Vögel belehrt\n
-Manchmal umgekehrt Flows als Toyjanisches Pferd\n
+Kotzen, kotzen, literweise kotzen\n
+Nie wieder Nachrichten glotzen\n
+Früher musste ich kiffen um paranoid zu werden\n
+Ich sauf' mich tot, statt in irgendeinem Krieg zu sterben\n
+Stumpf weiter ab, mich trifft es ja eh nicht\n
+Viva la Ego, Glück macht überheblich\n
+Ein Dasein alleine ist schon Kampf genug\n
+Zwischen Selbstzerstörung und Siegeszug\n
+Zwischen Panikattacken und Party machen\n
+Zwischen Liebeskummer und der nächsten Nummer\n
+Verdrängung ist Teil der Diagnose, Normalität, leb' die Psychose\n
 
-Ein Damoklesschwert über jeder Pickelhaube\n
-Dass du mich batteln kannst, ist primitivster Aberglaube\n
-Bin die fleischliche Blaupause eines Fusionsreaktors\n
-Dir kommt 4/4-Takt-Klatschen vertrakt vor\n
+Nur Ironie schlägt meine Dystopie nieder\n
+Ich greif' zum Handy, chatt' mit meinem Dopamindealer\n
+Komm, wir kriegen Kinder, um sie verdursten zu seh'n\n
+Um unsre Triebe zu befrieden, müssen wir uns nicht versteh'n\n
 
-Pöbel-Tokamat: Geist plus Aggressivität\n
-Es interessiert mich einen Scheiß, ob jeder Kunde mich versteht\n
-Flow für jeden der drauf steht, Professorin bis Prolet\n
-Mein Antikitschpamphlet in Pöbelmentalität\n
+Ich bin verliebt (Ja), doch leider nur in mich\n
+Toys kann man wegficken, Einsamkeit nicht\n
+Wir sind verliebt (Ja), doch jeder nur in sich\n
+Ehrlichkeit entwaffnet zuallererst dich\n
 """
 
 # Put your Google API Key in here

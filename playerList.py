@@ -117,7 +117,9 @@ rawPlaylist = [
     playList("UULPshyO4oCfROUZ6-6RccfKOg", "tracklib"),
     playList("PL2yt9TY3ZomOBjlwoN23H7bh329ub-he5", "1up"),
     playList("UULFL0UAVwPBK9rv5CPjK1XRLg", "MulMung Videos"),
-    playList("PLZiJdPaSgqU3DACQ_kR0VYeo1eDaoc-qK", "Purebrush Videos")
+    playList("PLZiJdPaSgqU3DACQ_kR0VYeo1eDaoc-qK", "Purebrush Videos"),
+    playList("PLrrzO8MuEKvpZm2PiWW2BK2Z_yaqj_N4i", "Medical Detectives"),
+    playList("PLcfl8GS9j5aGb-ZnoZnGwfjc9kxmKk4ol", "XFactor")
 ]
 
 playListWithVideos = []
